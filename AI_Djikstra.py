@@ -55,3 +55,18 @@ g.graph = [[0, 4, 0, 0, 0, 0, 0, 8, 0],
 		]
 
 g.dijkstra(0)
+
+
+''' Dijkstra algorithm is a single-source shortest path algorithm. Here, single-source means that only one source is given, and we have to find the shortest path from the source to all the nodes.
+Dijkstra's Algorithm Complexity
+Time Complexity: O(E Log V)
+
+where, E is the number of edges and V is the number of vertices.
+
+Space Complexity: O(V)
+
+Dijkstra's Algorithm Applications
+To find the shortest path
+In social networking applications
+In a telephone network
+To find the locations in the map '''
