@@ -71,4 +71,19 @@ T(n) = 1 + n 2 + n3+ n4+ …..+nd = O(nd)
 Space complexity: Equivalent to how large can the fringe get.
 S(n) = O(nd)
 Completeness: BFS is complete, meaning for a given search tree, BFS will come up with a
-solution if it exists.'''
+solution if it exists.
+
+Algorithm/Flowchart:
+DFS:
+o Step 1 – Push a starting node on stack, mark it visited.
+o Step 2 - Visit the adjacent unvisited vertex of start node. Mark it as visited. Display it. Push
+it in a stack.
+o Step 3 − If no adjacent vertex is found, pop up a vertex from the stack. Repeat Step 2
+o Step 4 − Repeat Step 2 and Step 3 until the stack is empty.
+BFS
+o Step 1 – Insert start node in Queue, mark it visited.
+ Step 2 − Visit the adjacent unvisited vertex. Mark it as visited. Display it. Insert it in a
+queue.
+ Step 3 − If no adjacent vertex is found, remove the first vertex from the queue.
+ Step 4 − Repeat Step 3 and Step 4 until the queue is empty.
+'''
