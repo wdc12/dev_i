@@ -85,3 +85,32 @@ Graph_nodes = {
      
 }
 aStarAlgo('A', 'G')
+
+'''
+A* Algorithm is the advanced form of the BFS algorithm (Breadth-first search), which searches for
+the shorter path first than, the longer paths. It is a complete as well as an optimal solution for
+solving path and grid problems.
+
+The key feature of the A* algorithm is that it keeps a track of each visited node which helps in
+ignoring the nodes that are already visited, saving a huge amount of time. It also has a list that holds
+all the nodes that are left to be explored and it chooses the most optimal node from this list, thus
+saving time not exploring unnecessary or less optimal nodes.
+So we use two lists namely ‘open list‘ and ‘closed list‘ the open list contains all the nodes that are
+being generated and are not existing in the closed list and each node explored after its neighboring
+nodes are discovered is put in the closed list and the neighbors are put in the open list this is how the
+nodes expand. Each node has a pointer to its parent so that at any given point it can retrace the path
+to the parent. Initially, the open list holds the start(Initial) node. The next node chosen from the open
+list is based on its f score (f(n)), the node with the least f-score is picked up and explored.
+
+f(n) = g(n) + h(n)
+
+Heuristic used in A*
+Where
+g (n) : The actual cost path from the start node to the current node.
+h (n) : The actual cost path from the current node to goal node.
+f (n) : The actual cost path from the start node to the goal node.
+
+Performance Measure:
+Optimal – find the least cost from the starting point to the ending point.
+Complete – It means that it will find all the available paths from start to end.
+'''
