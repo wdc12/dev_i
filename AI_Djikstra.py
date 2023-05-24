@@ -59,6 +59,20 @@ g.dijkstra(0)
 
 ''' Dijkstra algorithm is a single-source shortest path algorithm. Here, single-source means that only one source is given, and we have to find the shortest path from the source to all the nodes.
 Dijkstra's Algorithm Complexity
+
+Djikstra used this property in the opposite direction i.e we overestimate the distance of each vertex from the starting vertex. Then we visit each node and its neighbors to find the shortest subpath to those neighbors.
+
+The algorithm uses a greedy approach in the sense that we find the next best solution hoping that the end result is the best solution for the whole problem.
+
+
+Algorithm
+1. Mark the source node with a current distance of 0 and the rest with infinity.
+2. Set the non-visited node with the smallest current distance as the current node, lets say C.
+3. For each neighbour N of the current node C: add the current distance of C with the weight of the edge connecting C-N. If it is smaller than the current distance of N, set it as the new current distance of N.
+4. Mark the current node C as visited.
+5. Go to step 2 if there are any nodes are unvisited.
+
+
 Time Complexity: O(E Log V)
 
 where, E is the number of edges and V is the number of vertices.
