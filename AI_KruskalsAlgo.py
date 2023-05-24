@@ -62,3 +62,27 @@ if __name__ == '__main__':
 	g.addEdge(2, 3, 4)
 
 	g.KruskalMST()
+	
+'''
+Spanning tree - A spanning tree is the subgraph of an undirected connected graph.
+
+Minimum Spanning tree - Minimum spanning tree can be defined as the spanning tree in which the sum of the weights of the edge is minimum. The weight of the spanning tree is the sum of the weights given to the edges of the spanning tree.
+
+Now, let's start with the main topic.
+
+Kruskal's Algorithm is used to find the minimum spanning tree for a connected weighted graph. The main target of the algorithm is to find the subset of edges by using which we can traverse every vertex of the graph. It follows the greedy approach that finds an optimum solution at every stage instead of focusing on a global optimum.
+
+How does Kruskal's algorithm work?
+In Kruskal's algorithm, we start from edges with the lowest weight and keep adding the edges until the goal is reached. The steps to implement Kruskal's algorithm are listed as follows -
+
+First, sort all the edges from low weight to high.
+Now, take the edge with the lowest weight and add it to the spanning tree. If the edge to be added creates a cycle, then reject the edge.
+Continue to add the edges until we reach all vertices, and a minimum spanning tree is created.
+The applications of Kruskal's algorithm are -
+
+Kruskal's algorithm can be used to layout electrical wiring among cities.
+It can be used to lay down LAN connections.
+
+Time Complexity
+The time complexity of Kruskal's algorithm is O(E logE) or O(V logV), where E is the no. of edges, and V is the no. of vertices.
+'''
