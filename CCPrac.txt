@@ -1,0 +1,71 @@
+Eperiment 10 Google Engine
+
+curl https://sdk.cloud.google.com | bash
+Exit terminal and open new terminal 
+gcloud init
+
+==========================================================
+
+Experiment No. 10
+Installation and Configuration of virtualization using KVM
+
+https://www.linuxfordevices.com/tutorials/ubuntu/fix-unable-to-acquire-the-dpkg-frontend-lock
+
+Open terminal
+sudo apt install virt-manager
+sudo apt install cpu-checker
+sudo virt-manager
+
+VM opens -> select kvm -> New Virtual machine -> upload iso and configure -> hilao
+
+ISO Win7 : https://tech-latest.com/download-windows-7-iso/
+
+Optional codes:
+
+sudo virt-manager // is a desktop user interface for managing virtual machines through libvirt
+sudo apt install cpu-checker // ibvirt is an open-source API, daemon and management tool for
+managing platform virtualization. It can be used to manage KVM,
+sudo kvm-ok
+sudo apt update
+sudo apt install qemu qemu-kvm libvirt-bin bridge-utils virt-manager
+sudo service libvirtd start
+sudo update-rc.d libvirtd enable
+service libvirtd status
+sudo vi /etc/netplan/50-cloud-init.yaml
+sudo netplan apply //a utility for easily configuring networking on a linux system.
+sudo netplan --debug apply
+sudo networkctl status -a // Creating a bridge for virtual machine reCreating a bridge
+for virtual machinidge for virtual machines
+Ifconfig ///displays the current configuration for a network interface when no optional
+parameters are supplied
+sudo virt-manager
+
+===============================================================
+
+Experiment No. 11
+Creating an Application in SalesForce.com using Apex programming Language.
+
+Go to Settings Gear icon -> Developer Console -> File -> New -> ApexClass -> Write code:
+
+Code:
+public class Search {
+    public static void main(){
+        system.debug('Hello world!!');
+    }
+}
+
+Go to Debug -> Open execute anonymous window -> write Search.main(); -> OpenLog tick -> Execute -> Debug Only.
+
+
+===============================================================
+
+Experiment No. 12
+Design and develop custom Application (Mini Project) using Sales force Cloud.
+
+setup -> create -> custom object -> give label -> fuck around find out -> tick allow reports and allow activities -> save 
+add fields to the object in the object manager
+create tabs in quickfind (search tabs)
+app manager -> new lightning app -> fafo (give its configurations)
+app launcher -> launch app -> new contact
+
+
