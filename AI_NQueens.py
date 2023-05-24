@@ -79,3 +79,38 @@ def solveNQ():
  
 # Driver Code
 solveNQ()
+
+
+
+'''
+Constraint satisfaction is a technique where a problem is solved when its values satisfy certain
+constraints or rules of the problem. Such type of technique leads to a deeper understanding of the
+problem structure as well as its complexity.
+Constraint satisfaction depends on three components, namely:
+ X: It is a set of variables.
+ D: It is a set of domains where the variables reside. There is a specific domain for each
+variable.
+ C: It is a set of constraints which are followed by the set of variables.
+In constraint satisfaction, domains are the spaces where the variables reside, following the problem
+specific constraints. These are the three main elements of a constraint satisfaction technique. The
+constraint value consists of a pair of {scope, rel}. The scope is a tuple of variables which participate
+in the constraint and rel is a relation which includes a list of values which the variables can take to
+satisfy the constraints of the problem
+
+Naive Algorithm:
+Generate all possible configurations of queens on board and print a configuration that satisfies the given constraints.
+
+while there are untried configurations
+{
+    generate the next configuration
+    if queens don’t attack in this configuration then
+    {
+        print this configuration;
+    }
+}
+
+Time Complexity: O(N*NCN)
+Auxiliary Space: O(N2)
+
+
+'''
