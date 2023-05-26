@@ -72,7 +72,7 @@ the nodes at the next depth level.
 
 Performance Measure:
 d = the depth of the shallowest solution.
-ni= number of nodes in level.
+n^i= number of nodes in level.
 
 Time complexity: Equivalent to the number of nodes traversed in BFS until the shallowest
 solution.
