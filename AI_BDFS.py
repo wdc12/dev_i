@@ -98,5 +98,5 @@ Step 1 – Insert start node in Queue, mark it visited.
 Step 2 − Visit the adjacent unvisited vertex. Mark it as visited. Display it. Insert it in a
 queue.
 Step 3 − If no adjacent vertex is found, remove the first vertex from the queue.
-Step 4 − Repeat Step 3 and Step 4 until the queue is empty.
+Step 4 − Repeat Step 2 and Step 3 until the queue is empty.
 '''
