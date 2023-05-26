@@ -57,3 +57,13 @@ guess_age()
 count() 
 test() 
 end() 
+
+'''
+Artificial intelligence chatbots are text- or voice-based interfaces that provide support and connect
+human users with the services or information they need by simulating a traditional person-to-person
+conversation.
+
+The most typical chatbot interaction occurs on a business site. These customer service bots usually
+pop up after a human user navigates around a site for a few minutes or exhibits behaviors that show
+that they have become “lost” or are having trouble connecting with the information they need.
+'''
