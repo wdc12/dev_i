@@ -110,7 +110,7 @@ while there are untried configurations
 }
 
 Time Complexity: O(N*NCN)
-Auxiliary Space: O(N2)
+Auxiliary Space: O(N^2)
 
 
 '''
