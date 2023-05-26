@@ -13,6 +13,35 @@ now type all these commands in cloud shell:
 delete the group to end:
 ? az group delete --name appsvc_rg_Windows_westeurope
 
+Theory:
+What is Azure?
+Azure is a complete cloud platform that can host your existing applications and streamline new
+application development. Azure can even enhance on-premises applications. Azure integrates the
+cloud services that you need to develop, test, deploy, and manage your applications, all while
+taking advantage of the efficiencies of cloud computing.
+This guide is an introduction to the Azure platform for application developers. It provides
+guidance and direction that you need to start building new applications in Azure or migrating
+existing applications to Azure.
+
+Where do I start?
+With all the services that Azure offers, it can be an intimidating task to figure out which services
+you need to support your solution architecture. This section highlights the Azure services that
+developers commonly use.
+Now, let's look at some of the specific services that we recommend investigating for your
+applications.
+
+Hosted storage and data access:
+Most applications must store data, so however you decide to host your application in Azure,
+consider one or more of the following storage and data services.
+Azure Cosmos DB: A globally distributed, multi-model database service. This database
+enables you to elastically scale throughput and storage across any number of geographical
+regions with a comprehensive SLA.
+Azure Storage: Offers durable, highly available storage for blobs, queues, files, and other
+kinds of nonrelational data. Storage provides the storage foundation for VMs.
+Azure SQL Database: An Azure-based version of the Microsoft SQL Server engine for
+storing relational tabular data in the cloud. SQL Database provides predictable
+performance, scalability with no downtime, business continuity, and data protection.
+
 
 ========================================================
 
@@ -57,6 +86,37 @@ for virtual machinidge for virtual machines
 Ifconfig ///displays the current configuration for a network interface when no optional
 parameters are supplied
 sudo virt-manager
+
+Theory:
+ Virtualization is software that separates physical infrastructures to create various 
+dedicated resources. It is the fundamental technology that powerscloud computing.
+ The technology behind virtualization is known as a virtual machine monitor (VMM) or
+virtual manager, which separates compute environments from the actual physical
+infrastructure.
+ Virtualization makes servers, workstations, storage and other systems independent of the 
+physical hardware layer. This is done by installing a Hypervisor on top of the hardware
+layer, where the systems are then installed.There are three areas of IT where virtualization 
+is making headroads, network virtualization, storage virtualization and server 
+virtualization:
+ Network virtualization is a method of combining the available resources in a network by 
+splitting up the available bandwidth into channels,each of which is independent from the 
+others, and each of which can be assigned (or reassigned) to a particular server or device
+in real time. The ideais that virtualization disguises the true complexity of the network by
+separating it into manageable parts, much like your partitioned hard drive makes it easier 
+to manage your files.
+ Storage virtualization is the pooling of physical storage from multiple network storage
+devices into what appears to be a single storage device that is managed from a central 
+console. Storage virtualization is commonly used in storage area networks (SANs).
+ Server virtualization is the masking of server resources (including the number and 
+identity of individual physical servers, processors, and operating systems) from server 
+users. The intention is to spare the user from having to understand and manage 
+complicated details of server resources while increasing resource sharing and utilization 
+and maintaining the capacity to expand later.
+ Virtualization can be viewed as part of an overall trend in enterprise IT that includes
+autonomic computing, a scenario in which the IT environment will beable to manage itself 
+based on perceived activity, and utility computing, in which computer processing power is 
+seen as a utility that clients can pay for only as needed. The usual goal of virtualization is to 
+centralize administrative tasks while improving scalability and work loads.
 
 ===============================================================
 
@@ -115,4 +175,22 @@ create tabs in quickfind (search tabs)
 app manager -> new lightning app -> fafo (give its configurations)
 app launcher -> launch app -> new contact
 
+Theory:
+1. Salesforce:
+Salesforce is a cloud computing service as a software (SaaS) company that specializes in
+customer relationship management (CRM). Salesforce's services allow businesses to use
+cloud technology to better connect with customers, partners and potential customers. The
+software has become the number one for customer success and helps businesses
+track customer activity, market to customers and many more services. Salesforce is a
+customer relationship management solution that brings companies and customers together. It
+is one integrated CRM platform that gives all your departments — including marketing,
+sales, commerce, and service — a single, shared view of every customer.
 
+2. Salesforce Lightning Experience:
+Salesforce Lightning Experience is simply referred to as “Lightning”. When working with
+lightning Salesforce we will learn about different Salesforce lightning topics like Lightning
+Login, Lightning App Builder, Lightning for Outlook, Salesforce Lightning Components,
+Lightning Sync and many more. Some of them are applicable in Lightning Experience only,
+but some others will work in both Lightning Experience and older Classic user interfaces.
+Lightning Sync is used to sync your user contacts and events between your email server with
+Salesforce.
